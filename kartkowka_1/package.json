@@ -1,0 +1,14 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "Simple demo app with tests and linting",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^29.0.0"
+  }
+}
