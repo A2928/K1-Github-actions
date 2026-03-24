@@ -1,0 +1,15 @@
+name: abcdefg
+
+on:
+  pull_request:
+
+jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+  - uses: actions/checkout@v4
+  - run: npm run lint
+  - run: npm test
+  with:
+    node-version: "20"
+    
